@@ -18,7 +18,7 @@ module.exports = async function handler(req, res) {
           <tr style="background:#f1f5f9"><th style="text-align:left;padding:10px 14px;width:35%">병원명</th><td style="padding:10px 14px">${b['병원명'] || '-'}</td></tr>
           <tr><th style="text-align:left;padding:10px 14px">지역</th><td style="padding:10px 14px">${b['지역'] || '-'}</td></tr>
           <tr style="background:#f1f5f9"><th style="text-align:left;padding:10px 14px">연락처</th><td style="padding:10px 14px">${b['연락처'] || '-'}</td></tr>
-          <tr><th style="text-align:left;padding:10px 14px">원하시는 게시 주기</th><td style="padding:10px 14px">${b['게시_주기'] || '-'}</td></tr>
+          <tr><th style="text-align:left;padding:10px 14px">관심 있는 플랜</th><td style="padding:10px 14px">${b['게시_주기'] || '-'}</td></tr>
           <tr style="background:#f1f5f9"><th style="text-align:left;padding:10px 14px;vertical-align:top">소개하고 싶은 케이스 / 강점</th><td style="padding:10px 14px;white-space:pre-wrap">${b['소개_케이스'] || '-'}</td></tr>
         </table>
       </div>
