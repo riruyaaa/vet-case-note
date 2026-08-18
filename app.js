@@ -1,5 +1,12 @@
 const APPLY_API_URL = '/api/apply';
 
+document.querySelectorAll('.price-cta[data-plan]').forEach((link) => {
+  link.addEventListener('click', () => {
+    const cycleSelect = document.getElementById('cycle');
+    if (cycleSelect) cycleSelect.value = link.dataset.plan;
+  });
+});
+
 const applyForm = document.getElementById('applyForm');
 if (applyForm) {
   applyForm.addEventListener('submit', async (e) => {
