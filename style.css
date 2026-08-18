@@ -296,7 +296,7 @@ h2.section-title {
   margin: 10px 0 2px;
   font-variant-numeric: tabular-nums;
 }
-.price-unit { font-size: 1.1rem; font-weight: 600; margin-left: 2px; }
+.price-unit { font-family: var(--font-kr-body); font-size: 1.1rem; font-weight: 600; margin-left: 2px; }
 .price-vat { font-size: 0.78rem; color: var(--ink-faint); margin-bottom: 18px; }
 .price-service { font-size: 0.92rem; font-weight: 700; color: var(--ink); }
 .price-freq { font-size: 0.85rem; color: var(--amber-strong); font-weight: 600; margin: 4px 0 16px; }
