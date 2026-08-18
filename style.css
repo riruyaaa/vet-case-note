@@ -343,7 +343,7 @@ h2.section-title {
   margin: 0 0 10px;
   text-wrap: balance;
 }
-.apply-panel .lead { color: var(--ink-soft); margin: 0; }
+.apply-panel .lead { color: var(--ink-soft); margin: 0; word-break: keep-all; }
 
 .request-form {
   display: flex;
