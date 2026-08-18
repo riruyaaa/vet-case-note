@@ -46,9 +46,13 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-kr-body);
+  font-weight: 450;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.75;
+  letter-spacing: -0.012em;
+  word-break: keep-all;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
 a { color: inherit; }
